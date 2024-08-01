@@ -1,0 +1,30 @@
+.main {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+}
+
+.main img {
+    height: 380px;
+}
+
+.main button {
+    margin: 5px;
+    align-self: center;
+}
+
+.rulette img{
+    height: 100px;
+}
+
+.rulette {
+    display: inline-flex;
+}
+
+.arrow {
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
